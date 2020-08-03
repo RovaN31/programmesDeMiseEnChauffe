@@ -1,8 +1,9 @@
 def day_trader(arr)
 	puts  "entrez les prix svp" if arr.empty?
-	
+	#on récupère la valeur maximum des prix parce que lorsque le prix augmente, ce sera mieux de revendre l'objet pour gagner plus
 	rv= arr.max
 	puts "la meilleur jour a la revente est " + rv.to_s
+	#on récupère la valeur minimum des prix car c'est mieux d'acheter les choses à bon prix
 	ach= arr.min 
 	puts "la meilleur jour a lachat est " + ach.to_s
 	ind_rv= arr.index(rv)
