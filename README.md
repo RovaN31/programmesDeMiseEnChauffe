@@ -34,7 +34,7 @@ Pour lancer le test de notre programme ouvrir un **terminal** et entrer dans la 
 Une fois arriver dans le repertoire de notre mini-projet , executez la commande suivante **rspec --format doc**
 
 
-2.**Jean-Michel Trader**
+3.**Jean-Michel Trader**
 
 Le programme suivant nous permet d'aider Lehman Brother qui lui permet de connaitre le meilleur prix d' achat et le meilleur jour de revente pour faire le maximum de bénéfices.
 
